@@ -1,0 +1,228 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "nome": "João Silva",
+        "email": "joao@gmail.com",
+        "senha": "123456",
+        "cidade": "Maceió"
+      },
+      {
+        "id": 2,
+        "nome": "Maria Santos",
+        "email": "maria@gmail.com",
+        "senha": "123456",
+        "cidade": "Maceió"
+      },
+      {
+        "id": 3,
+        "nome": "Pedro Oliveira",
+        "email": "pedro@gmail.com",
+        "senha": "123456",
+        "cidade": "Recife"
+      },
+      {
+        "id": 4,
+        "nome": "Ana Costa",
+        "email": "ana@gmail.com",
+        "senha": "123456",
+        "cidade": "Salvador"
+      },
+      {
+        "id": 5,
+        "nome": "Carlos Ferreira",
+        "email": "carlos@gmail.com",
+        "senha": "123456",
+        "cidade": "Maceió"
+      }
+    ],
+    "medicamentos": [
+      {
+        "id": 1,
+        "nome": "Dipirona",
+        "dosagem": "500mg",
+        "frequencia": "8/8h",
+        "horarios": ["08:00", "16:00", "00:00"]
+      },
+      {
+        "id": 2,
+        "nome": "Paracetamol",
+        "dosagem": "750mg",
+        "frequencia": "6/6h",
+        "horarios": ["06:00", "12:00", "18:00", "00:00"]
+      },
+      {
+        "id": 3,
+        "nome": "Omeprazol",
+        "dosagem": "20mg",
+        "frequencia": "1x ao dia",
+        "horarios": ["07:00"]
+      }
+    ],
+    "sintomas": [
+      {
+        "id": 1,
+        "userId": 1,
+        "data": "2025-10-22",
+        "tipo": "Dor no peito",
+        "intensidade": 3,
+        "observacoes": "Dor leve ao respirar fundo"
+      },
+      {
+        "id": 2,
+        "userId": 1,
+        "data": "2025-10-21",
+        "tipo": "Tosse",
+        "intensidade": 2,
+        "observacoes": "Tosse seca pela manhã"
+      },
+      {
+        "id": 3,
+        "userId": 2,
+        "data": "2025-10-22",
+        "tipo": "Falta de ar",
+        "intensidade": 4,
+        "observacoes": "Dificuldade ao subir escadas"
+      }
+    ],
+    "consultas": [
+      {
+        "id": 1,
+        "userId": 1,
+        "data": "2025-10-25",
+        "horario": "14:00",
+        "medico": "Dr. Roberto Almeida",
+        "especialidade": "Pneumologista",
+        "local": "Hospital São Lucas",
+        "observacoes": "Levar exames anteriores"
+      },
+      {
+        "id": 2,
+        "userId": 1,
+        "data": "2025-11-10",
+        "horario": "10:30",
+        "medico": "Dra. Juliana Mendes",
+        "especialidade": "Oncologista",
+        "local": "Clínica OncoVida",
+        "observacoes": "Consulta de acompanhamento"
+      },
+      {
+        "id": 3,
+        "userId": 2,
+        "data": "2025-10-28",
+        "horario": "09:00",
+        "medico": "Dr. Fernando Costa",
+        "especialidade": "Cardiologista",
+        "local": "Hospital do Coração",
+        "observacoes": ""
+      }
+    ],
+    "agendaItems": [
+      {
+        "id": 1,
+        "tipo": "Medicamento",
+        "hora": "09:00",
+        "descricao": "Tomar Dipirona 500mg",
+        "icone": "medication",
+        "concluido": false
+      },
+      {
+        "id": 2,
+        "tipo": "Exercício",
+        "hora": "14:00",
+        "descricao": "Caminhada leve - 15 min",
+        "icone": "directions_walk",
+        "concluido": false
+      },
+      {
+        "id": 3,
+        "tipo": "Hidratação",
+        "hora": "16:00",
+        "descricao": "Lembrete para beber água",
+        "icone": "water_drop",
+        "concluido": false
+      },
+      {
+        "id": 4,
+        "tipo": "Medicamento",
+        "hora": "18:00",
+        "descricao": "Tomar Paracetamol 750mg",
+        "icone": "medication",
+        "concluido": false
+      },
+      {
+        "id": 5,
+        "tipo": "Consulta",
+        "hora": "20:00",
+        "descricao": "Registrar sintomas do dia",
+        "icone": "schedule",
+        "concluido": false
+      }
+    ],
+    "dicasSaude": [
+      {
+        "id": 1,
+        "titulo": "Hidratação é fundamental",
+        "descricao": "Beba pelo menos 2 litros de água por dia para manter seu corpo bem hidratado e ajudar na recuperação.",
+        "categoria": "Nutrição",
+        "icone": "water_drop"
+      },
+      {
+        "id": 2,
+        "titulo": "Exercícios respiratórios",
+        "descricao": "Pratique exercícios de respiração profunda 3 vezes ao dia para fortalecer seus pulmões.",
+        "categoria": "Exercícios",
+        "icone": "air"
+      },
+      {
+        "id": 3,
+        "titulo": "Alimentação balanceada",
+        "descricao": "Consuma frutas, verduras e proteínas para fortalecer seu sistema imunológico.",
+        "categoria": "Nutrição",
+        "icone": "restaurant"
+      },
+      {
+        "id": 4,
+        "titulo": "Durma bem",
+        "descricao": "Procure dormir de 7 a 8 horas por noite. O descanso é essencial para a recuperação.",
+        "categoria": "Bem-estar",
+        "icone": "bedtime"
+      },
+      {
+        "id": 5,
+        "titulo": "Evite ambientes poluídos",
+        "descricao": "Mantenha-se afastado de fumaça, poeira e ambientes com má qualidade do ar.",
+        "categoria": "Prevenção",
+        "icone": "warning"
+      }
+    ],
+    "exames": [
+      {
+        "id": 1,
+        "userId": 1,
+        "tipo": "Raio-X de Tórax",
+        "data": "2025-10-15",
+        "resultado": "Estável",
+        "observacoes": "Sem alterações significativas",
+        "arquivo": "raio-x-15-10-2025.pdf"
+      },
+      {
+        "id": 2,
+        "userId": 1,
+        "tipo": "Hemograma Completo",
+        "data": "2025-10-10",
+        "resultado": "Normal",
+        "observacoes": "Todos os valores dentro da normalidade",
+        "arquivo": "hemograma-10-10-2025.pdf"
+      },
+      {
+        "id": 3,
+        "userId": 2,
+        "tipo": "Tomografia Computadorizada",
+        "data": "2025-10-20",
+        "resultado": "Em análise",
+        "observacoes": "Aguardando laudo do radiologista",
+        "arquivo": ""
+      }
+    ]
+  }
